@@ -3,16 +3,16 @@
 banner:
   title: "Bulky Pixels"
   content: "Where Pixels turn's to magic"
-  image: "/images/banner.png"
+  image: "/images/Menu/pic6.jpg"
   button:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/nextplate"
+    label: "Lets Connect"
+    link: "https://www.linkedin.com/in/abdurrehman-mufti-53b25875/"
 
 # Features
 features:
-  - title: "What's Included in Nextplate"
-    image: "/images/service-1.png"
+  - title: "Who we are?"
+    image: "/images/Menu/pic4.jpg"
     content: "Nextplate is a comprehensive starter template that includes everything you need to get started with your Next project. What's Included in Nextplate"
     bulletpoints:
       - "10+ Pre-build pages"
@@ -22,8 +22,8 @@ features:
       - "SEO-optimized for better search engine rankings"
       - "**Open-source and free** for personal and commercial use"
     button:
-      enable: false
-      label: "Get Started Now"
+      enable: true
+      label: "Lets Talk"
       link: "#"
 
   - title: "Discover the Key Features Of Next"
