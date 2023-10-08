@@ -3,7 +3,7 @@ title: "Angry Fighter Attack"
 meta_title: ""
 description: "Are YOU street smart and ready to rumble?!"
 date: 2022-04-04T05:00:00Z
-image: "/Games/Simulation Games with Tap2Play/Angry Fighter Attack/1.jpg"
+image: ["/Games/Simulation Games with Tap2Play/Angry Fighter Attack/1.jpg"]
 categories: ["Unity 3D", "Action Game"]
 author: "Unity Android/IOS Game"
 tags: ["game", "android"]

@@ -13,6 +13,52 @@
       "url": "/elements"
     },
     {
+      "name": "Web Portfolio",
+      "url": "/portfolio",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "web",
+          "url": "/web"
+        }
+      ]
+    },
+    {
+      "name": "Machine Learning Portfolio",
+      "url": "/portfolio",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "ML",
+          "url": "/ml"
+        }
+      ]
+    },
+    {
+      "name": "Game Portfolio",
+      "url": "/portfolio",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Games",
+          "url": "/portfolio"
+        },
+        {
+          "name": "VR/AR",
+          "url": "/contact"
+        },
+        {
+          "name": "Metaverse",
+          "url": "/contact"
+        },
+        {
+          "name": "Unity Applications",
+          "url": "/contact"
+        }
+      ]
+    },
+
+    {
       "name": "Pages",
       "url": "",
       "hasChildren": true,
@@ -21,10 +67,7 @@
           "name": "Contact",
           "url": "/contact"
         },
-        {
-          "name": "Blog",
-          "url": "/blog"
-        },
+
         {
           "name": "Authors",
           "url": "/authors"

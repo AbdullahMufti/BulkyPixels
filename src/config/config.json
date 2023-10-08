@@ -5,10 +5,10 @@
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
-    "logo": "/images/Icon1.png",
-    "logo_darkmode": "/images/Icon1.png",
+    "logo": "/images/icon0.jpeg",
+    "logo_darkmode": "/images/icon0.jpeg",
     "logo_width": "200",
-    "logo_height": "200",
+    "logo_height": "100",
     "logo_text": "BulkyPixels"
   },
 
@@ -19,7 +19,7 @@
     "default_theme": "system",
     "pagination": 2,
     "summary_length": 200,
-    "blog_folder": "blog"
+    "blog_folder": "portfolio"
   },
 
   "params": {

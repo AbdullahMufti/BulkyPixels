@@ -24,23 +24,6 @@ export default function RootLayout({
           content="width=device-width, initial-scale=1, maximum-scale=5"
         />
 
-        {/* favicon */}
-        <link rel="shortcut icon" href={config.site.favicon} />
-        {/* theme meta */}
-        <meta name="theme-name" content="nextplate" />
-        <meta name="msapplication-TileColor" content="#000000" />
-        <meta
-          name="theme-color"
-          media="(prefers-color-scheme: light)"
-          content="#fff"
-        />
-        <meta
-          name="theme-color"
-          media="(prefers-color-scheme: dark)"
-          content="#000"
-        />
-
-        {/* google font css */}
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
@@ -56,11 +39,9 @@ export default function RootLayout({
 
       <body suppressHydrationWarning={true}>
         <TwSizeIndicator />
-        <Providers>
           <Header />
           <main>{children}</main>
           <Footer />
-        </Providers>
       </body>
     </html>
   );

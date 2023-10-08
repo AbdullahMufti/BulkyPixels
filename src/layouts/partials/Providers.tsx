@@ -7,15 +7,7 @@ import { ReactNode } from "react";
 const Providers = ({ children }: { children: ReactNode }) => {
   const { default_theme } = config.settings;
 
-  return (
-    <ThemeProvider
-      attribute="class"
-      defaultTheme={default_theme}
-      enableColorScheme={false}
-    >
-      {children}
-    </ThemeProvider>
-  );
+  return <div>{children}</div>;
 };
 
 export default Providers;
