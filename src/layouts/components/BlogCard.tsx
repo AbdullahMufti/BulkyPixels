@@ -11,6 +11,7 @@ const BlogCard = ({ data }: { data: Post }) => {
   const { title, image, author, categories, date } = data.frontmatter;
   return (
     <div className="bg-body dark:bg-darkmode-body">
+       <Link href={`/${blog_folder}/${data.slug}`}>
       {image && (
         <ImageFallback
           className="mb-6 w-full rounded"
@@ -19,7 +20,8 @@ const BlogCard = ({ data }: { data: Post }) => {
           width={445}
           height={230}
         />
-      )}
+        )}
+        </Link>
       <h4 className="mb-3">
         <Link href={`/${blog_folder}/${data.slug}`}>{title}</Link>
       </h4>
