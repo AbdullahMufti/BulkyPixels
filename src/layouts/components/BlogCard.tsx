@@ -14,7 +14,7 @@ const BlogCard = ({ data }: { data: Post }) => {
       {image && (
         <ImageFallback
           className="mb-6 w-full rounded"
-          src={image}
+          src={image[0]}
           alt={title}
           width={445}
           height={230}

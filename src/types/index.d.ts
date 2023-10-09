@@ -17,6 +17,7 @@ export type Post = {
     meta_title?: string;
     description?: string;
     image?: string;
+    titleImage?: string;
     categories: string[];
     author: string;
     tags: string[];

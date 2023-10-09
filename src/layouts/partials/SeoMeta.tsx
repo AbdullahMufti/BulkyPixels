@@ -15,6 +15,7 @@ const SeoMeta = ({
   title?: string;
   meta_title?: string;
   image?: string;
+  titleImage?: string;
   description?: string;
   canonical?: string;
   noindex?: boolean;

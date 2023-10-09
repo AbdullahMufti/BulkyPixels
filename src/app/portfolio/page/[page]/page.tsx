@@ -43,7 +43,7 @@ function spreadPages(num: number): number[] {
 // for all regular pages
 const Posts = ({ params }: { params: { page: number } }) => {
   const postIndex: Post = getListPage(`${blog_folder}/_index.md`);
-  const { title, meta_title, description, image } = postIndex.frontmatter;
+  const { title, meta_title, description, image, titleImage } = postIndex.frontmatter;
   const posts: Post[] = getSinglePage(blog_folder);
   const allCategories = getAllTaxonomy(blog_folder, "categories");
   const categories = getTaxonomy(blog_folder, "categories");
@@ -63,6 +63,7 @@ const Posts = ({ params }: { params: { page: number } }) => {
         meta_title={meta_title}
         description={description}
         image={image}
+        titleImage={titleImage}
       />
       <PageHeader title={postIndex.frontmatter.title} />
       <section className="section">
