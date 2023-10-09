@@ -6,6 +6,7 @@
     },
     {
       "name": "Developers",
+      "url": "/authors",
       "hasChildren": true,
       "children": [
         {
