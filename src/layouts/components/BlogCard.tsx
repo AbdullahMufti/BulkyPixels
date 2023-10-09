@@ -11,24 +11,25 @@ const BlogCard = ({ data }: { data: Post }) => {
   const { title, image, author, categories, date } = data.frontmatter;
   return (
     <div className="bg-body dark:bg-darkmode-body">
-       <Link href={`/${blog_folder}/${data.slug}`}>
-      {image && (
-        <ImageFallback
-          className="mb-6 w-full rounded"
-          src={image[0]}
-          alt={title}
-          width={445}
-          height={230}
-        />
+      <Link href={`/${blog_folder}/${data.slug}`}>
+        {image && (
+          <ImageFallback
+            className="mb-6 w-full rounded"
+            src={image[0]}
+            alt={title}
+            width={445}
+            height={230}
+          />
         )}
-        </Link>
+      </Link>
       <h4 className="mb-3">
         <Link href={`/${blog_folder}/${data.slug}`}>{title}</Link>
       </h4>
       <ul className="mb-4">
         <li className="mr-4 inline-block">
           <a href={`/authors/${slugify(author)}`}>
-            <FaRegUserCircle className={"-mt-1 mr-2 inline-block"} />
+            <FaRegUserCircle className={"-mt-1 mr-2 inline-block"} /> Developed
+            By :{" "}
             {humanize(author)}
           </a>
         </li>
@@ -41,7 +42,7 @@ const BlogCard = ({ data }: { data: Post }) => {
             </Link>
           ))}
         </li>
-        {date && <li className="inline-block">{dateFormat(date)}</li>}
+        {/* date && <li className="inline-block">{dateFormat(date)}</li> */}
       </ul>
       <p className="mb-6">
         {plainify(data.content!.slice(0, Number(summary_length)))}

@@ -10,7 +10,7 @@ image: ["/Games/Simulation Games with Tap2Play/War Of Dragons 2016/1.webp",
 "/Games/Simulation Games with Tap2Play/War Of Dragons 2016/4.webp",
 "/Games/Simulation Games with Tap2Play/War Of Dragons 2016/5.webp"]
 categories: ["Unity 3D Development","Game"]
-author: "Unity Android/IOS Game"
+author: "AbdurRehman"
 tags: ["game", "android", "android" , "ios", "mobile"]
 draft: false
 ---

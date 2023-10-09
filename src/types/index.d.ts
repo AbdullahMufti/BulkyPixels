@@ -16,13 +16,14 @@ export type Post = {
     title: string;
     meta_title?: string;
     description?: string;
-    image?: string;
+    image?: string[];
     titleImage?: string;
     categories: string[];
     author: string;
     tags: string[];
     date?: string;
     draft?: boolean;
+    video?: string;
   };
   slug?: string;
   content?: string;

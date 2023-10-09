@@ -5,9 +5,24 @@
       "url": "/"
     },
     {
+      "name": "Developers",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "AbdurRehman",
+          "url": "/authors/abdurrehman"
+        },
+        {
+          "name": "Abdullah",
+          "url": "/authors/abdullah"
+        }
+      ]
+    },
+    {
       "name": "About",
       "url": "/about"
     },
+
     {
       "name": "Elements",
       "url": "/elements"

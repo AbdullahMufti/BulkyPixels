@@ -10,7 +10,7 @@ image: ["/Games/Simulation Games with Tap2Play/Angry Fighter Attack/1.jpg",
 "/Games/Simulation Games with Tap2Play/Angry Fighter Attack/4.webp",
 "/Games/Simulation Games with Tap2Play/Angry Fighter Attack/5.webp"]
 categories: ["Unity 3D", "Action Game"]
-author: "Unity Android/IOS Game"
+author: "AbdurRehman"
 tags: ["game", "android"]
 draft: false
 ---

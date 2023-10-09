@@ -9,6 +9,8 @@ import dateFormat from "@/lib/utils/dateFormat";
 import similerItems from "@/lib/utils/similarItems";
 import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
 import SeoMeta from "@/partials/SeoMeta";
+import ImageGallery from "@/shortcodes/ImageGallery";
+import Youtube from "@/shortcodes/Youtube";
 import { Post } from "@/types";
 import Link from "next/link";
 import {
@@ -47,6 +49,7 @@ const PostSingle = ({ params }: { params: { single: string } }) => {
     categories,
     date,
     tags,
+    video,
   } = frontmatter;
   const similarPosts = similerItems(post, posts, post.slug!);
 
@@ -56,85 +59,19 @@ const PostSingle = ({ params }: { params: { single: string } }) => {
         title={title}
         meta_title={meta_title}
         description={description}
-        image={image}
+        image={(image && image[0]) || ""}
       />
       <section className="section pt-7">
         <div className="container">
           <div className="row justify-center">
             <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
-              <div className="-m-1 flex flex-wrap md:-m-2">
-                <div className="flex w-1/2 flex-wrap">
-                 
-                  <div className="w-full p-1 md:p-2">
-                    {image && (
-                  <ImageFallback
-                    src={image[0]}
-                    height={800}
-                    width={1200}
-                    alt={title}
-                    className="w-full rounded"
-                  />
-                  )}
-                  </div>
-                  <div className="w-1/2 p-1 md:p-2">
-                     {image && (
-                  <ImageFallback
-                    src={image[4]}
-                    height={500}
-                    width={1200}
-                    alt={title}
-                    className="w-full rounded"
-                  />
-                  )}
-                  </div>
-                  <div className="w-1/2 p-1 md:p-2">
-                    {image && (
-                  <ImageFallback
-                    src={image[5]}
-                    height={500}
-                    width={1200}
-                    alt={title}
-                    className="w-full rounded"
-                  />
-                  )}
-                  </div>
+              {video ? (
+                <div className="w-full md:w-1/2   mx-auto">
+                  <Youtube id={video} title={title} />
                 </div>
-                <div className="flex w-1/2 flex-wrap">
-                  <div className="w-1/2 p-1 md:p-2">
-                     {image && (
-                  <ImageFallback
-                    src={image[1]}
-                    height={500}
-                    width={1200}
-                    alt={title}
-                    className="w-full rounded"
-                  />
-                  )}
-                  </div>
-                  <div className="w-1/2 p-1 md:p-2">
-                    {image && (
-                  <ImageFallback
-                    src={image[2]}
-                    height={500}
-                    width={1200}
-                    alt={title}
-                    className="w-full rounded"
-                  />
-                  )}
-                  </div>
-                   <div className="w-full p-1 md:p-1">
-                     {image && (
-                  <ImageFallback
-                    src={image[3]}
-                    height={500}
-                    width={1200}
-                    alt={title}
-                    className="w-full rounded"
-                  />
-                  )}
-                  </div>
-                </div>
-              </div>
+              ) : (
+                <ImageGallery image={image} title={title} />
+              )}
             </div>
             <article className="lg:col-10">
               <h1
