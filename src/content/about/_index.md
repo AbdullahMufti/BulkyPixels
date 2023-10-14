@@ -1,25 +1,23 @@
 ---
-title: "Hi , I am AbdurRehman Mufti"
+title: "Bulky Pixels"
 meta_title: "About"
 description: "Bulky Pixels"
-image: "/images/my.jpeg"
+image: "/images/Logo.webp"
 draft: false
 ---
 
-I'm delighted to introduce myself as Abdur Rehman Mufti, a passionate 11 Years experianced Unity Developer with a strong commitment to working for a social cause and making a significant difference in the lives of underprivileged children in India and other developing countries.
+Bulky pixel is a web and game development company that is working for hundreds of businesses virtually. We provide a complete package of services. Our designing and content writing departments are also working successfully. We have risen through the ranks from a small startup to a team and now to a software house with multiple departments. 
 
-In my extensive career spanning over a decade of experience, I've had the privilege of collaborating on a diverse range of projects. I've successfully published at least 75+ games on the Google Play Store, Apple App Store, and other distribution channels. These games stand as a testament to my proficiency in Unity, my ability to take projects from scoping requirements through prototyping to their actual launch, and my dedication to delivering high-quality experiences.
+It requires an organized team to put everything together and offer comprehensive technological solutions. Bulky Pixel offers solutions for business that specializes in networking, software development, designing and content creation for enterprises of all sizes. After effectively identifying this market need, Bulky pixel is currently operating at a full capacity, employing over 50 individuals in Pakistan. While providing services to clients all around the world.
 
-My expertise extends to professional software engineering practices and best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, and rigorous testing. I pride myself on writing well-structured, readable, and well-documented code, ensuring the longevity and maintainability of each project.
+### Mission
 
-With a scrappy, entrepreneurial attitude and a relentless drive to accomplish high-quality projects swiftly, I consistently exceed expectations. English proficiency, both spoken and written, is another asset I bring to the table.
+Bulky pixel’s mission is to provide a technological link between the big-dreaming solopreneur and the well-known huge enterprise, enabling everyone to succeed in business.
 
-Additionally, I possess the following preferred qualifications:
+### Vision
 
-Proficiency in Agile methodologies.
-In-depth knowledge of Computer Science fundamentals, including data structures, algorithm design, databases, and efficient data storage.
+We base all of our decisions about corporate policy on the greater good philosophy. We conduct our business as a non-profit because we believe it optimizes benefits for both our clients and staff.
 
-I'm excited about the opportunity to combine my technical expertise with my passion for social impact and gaming to create meaningful projects. I look forward to the possibility of collaborating with your team to make a positive difference in the world.
+### Value
 
-Regards,
-Abdur Rehman Mufti
+Our guiding values include transparency in information flow, equitable compensation, and unambiguous, proportional merit recognition. Additionally, we think it is critical for this acknowledgment to be connected to the actions in order to organically reinforce positive behavior.

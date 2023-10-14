@@ -35,7 +35,7 @@ const About = () => {
                 dangerouslySetInnerHTML={markdownify(title)}
                 className="h3 mb-6"
               />
-              <div className="content text-justify">
+              <div className="text-center">
                 <MDXContent content={content} />
               </div>
             </div>
