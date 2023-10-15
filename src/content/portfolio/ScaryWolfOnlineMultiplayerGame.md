@@ -9,9 +9,10 @@ image: ["/Games/Simulation Games with Tap2Play/Scary Wolf  Online Multiplayer Ga
 "/Games/Simulation Games with Tap2Play/Scary Wolf  Online Multiplayer Game/1.webp",
 "/Games/Simulation Games with Tap2Play/Scary Wolf  Online Multiplayer Game/4.webp",
 "/Games/Simulation Games with Tap2Play/Scary Wolf  Online Multiplayer Game/2.webp"]
-categories: ["Unity 3D Development","Game"]
+categories: ["Unity3D_Android-IOS","Game"]
 author: "AbdurRehman"
 tags: ["game", "android", "android" , "ios", "mobile"]
+video : ""
 draft: false
 ---
 

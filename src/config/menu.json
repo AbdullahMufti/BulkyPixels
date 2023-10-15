@@ -8,7 +8,57 @@
       "name": "About",
       "url": "/about"
     },
+    
+   
     {
+      "name": "Web Development",
+      "url": "/portfolio",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "NodeJs",
+          "url": "/web"
+        },
+        {
+          "name": "React",
+          "url": "/web"
+        }
+      ]
+    },
+    {
+      "name": "Machine Learning Portfolio",
+      "url": "/portfolio",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "AI",
+          "url": "/ml"
+        },
+        {
+          "name": "ML",
+          "url": "/ml"
+        }
+      ]
+    },
+    {
+      "name": "Game Development",
+      "url": "/portfolio",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Games Android/IOS",
+          "url": "/categories/unity3d_android-ios"
+        },
+        {
+          "name": "VR/AR Apllications",
+          "url": "/contact"
+        },
+        {
+          "name": "Unity Apps",
+          "url": "/contact"
+        }
+      ]
+    },{
       "name": "Developers",
       "url": "/authors",
       "hasChildren": true,
@@ -23,63 +73,16 @@
         }
       ]
     },
-   
     {
-      "name": "Web Portfolio",
-      "url": "/portfolio",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "web",
-          "url": "/web"
-        }
-      ]
-    },
-    {
-      "name": "Machine Learning Portfolio",
-      "url": "/portfolio",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "ML",
-          "url": "/ml"
-        }
-      ]
-    },
-    {
-      "name": "Game Portfolio",
-      "url": "/portfolio",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Games",
-          "url": "/portfolio"
-        },
-        {
-          "name": "VR/AR",
+          "name": "Contact",
           "url": "/contact"
         },
-        {
-          "name": "Metaverse",
-          "url": "/contact"
-        },
-        {
-          "name": "Unity Applications",
-          "url": "/contact"
-        }
-      ]
-    },
 
     {
       "name": "Pages",
       "url": "",
       "hasChildren": true,
       "children": [
-        {
-          "name": "Contact",
-          "url": "/contact"
-        },
-
         {
           "name": "Authors",
           "url": "/authors"
