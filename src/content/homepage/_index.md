@@ -14,7 +14,7 @@ banner:
 features:
   - title: "Who we are?"
     image: "/images/OfficeLook.jpeg"
-    content: "Bulky pixel is a web and game development company that is working for hundreds of businesses virtually. We provide a complete package of services. Our designing and content writing departments are also working successfully. We have risen through the ranks from a small startup to a team and now to a software house with multiple departments. What's Included in BulkyPixels"
+    content: "Bulky pixel is a web and game development company that is working for hundreds of businesses virtually. We provide a complete package of services. Our designing and content writing departments are also working successfully. We have risen through the ranks from a small startup to a team and now to a software house with multiple departments. What's Included in BulkyPixels \n https://hackthon-ecommerce-mobile-store.vercel.app/"
     bulletpoints:
       - "Web Site - NodeJs , React "
       - "Learning Magment System (LMS) & School Magment System (SMS)"
